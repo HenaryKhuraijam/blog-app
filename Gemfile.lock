@@ -92,6 +92,7 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
+    childprocess (4.1.0)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     crass (1.0.6)
@@ -99,10 +100,11 @@ GEM
     debug (1.8.0)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
+    diff-lcs (1.5.0)
     drb (2.2.0)
       ruby2_keywords
-    error_highlight (0.5.1)
     erubi (1.12.0)
+    ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.1)
@@ -195,6 +197,23 @@ GEM
     reline (0.4.1)
       io-console (~> 0.5)
     rexml (3.2.6)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.6)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-rails (6.1.0)
+      actionpack (>= 6.1)
+      activesupport (>= 6.1)
+      railties (>= 6.1)
+      rspec-core (~> 3.12)
+      rspec-expectations (~> 3.12)
+      rspec-mocks (~> 3.12)
+      rspec-support (~> 3.12)
+    rspec-support (3.12.1)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.15.0)
@@ -224,6 +243,10 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
+    webdrivers (5.2.0)
+      nokogiri (~> 1.6)
+      rubyzip (>= 1.3.0)
+      selenium-webdriver (~> 4.0)
     webrick (1.8.1)
     websocket (1.2.10)
     websocket-driver (0.7.6)
@@ -239,19 +262,22 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  childprocess
   debug
-  error_highlight (>= 0.4.0)
+  ffi
   importmap-rails
   jbuilder
   pg (~> 1.1)
-  puma (>= 5.0)
+  puma (~> 6.0)
   rails (~> 7.1.2)
+  rspec-rails
   selenium-webdriver
   sprockets-rails
   stimulus-rails
   turbo-rails
   tzinfo-data
   web-console
+  webdrivers
 
 RUBY VERSION
    ruby 3.1.4p223
