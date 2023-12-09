@@ -117,7 +117,7 @@ I would like to thank Microverse for this opportunity to learn Ruby on Rails and
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
