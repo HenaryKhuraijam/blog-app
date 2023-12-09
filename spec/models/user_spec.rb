@@ -12,7 +12,7 @@ RSpec.describe User, type: :model do
 
   context 'Return valid data' do
     it 'should accept name' do
-      subject.name = 'Khuraijam'
+      subject.name = 'Angom'
       expect(subject).to be_valid
     end
 
