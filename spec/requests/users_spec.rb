@@ -22,7 +22,7 @@ RSpec.describe 'Users Controller', type: :request do
   describe 'GET /show' do
     context 'when the page is loaded' do
       before do
-        get '/users/100'
+        get '/users/1'
       end
       it 'returns a 200 status code' do
         expect(response).to have_http_status(200)

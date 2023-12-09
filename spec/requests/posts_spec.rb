@@ -2,7 +2,7 @@ require 'rails_helper'
 RSpec.describe 'Posts', type: :request do
   describe 'GET /index' do
     before(:example) do
-      get '/users/100/posts'
+      get '/users/1/posts'
     end
 
     it 'return correct response' do
@@ -18,7 +18,7 @@ RSpec.describe 'Posts', type: :request do
 
   describe 'GET /show' do
     before(:example) do
-      get '/users/99/posts/109'
+      get '/users/1/posts/1'
     end
 
     it 'return correct response' do
