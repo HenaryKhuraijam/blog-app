@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Blog App Project ](#-Blog-App-project-)
+- [📖 Blog App Project ](#-blog-app-project-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -12,7 +12,7 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-  - [👥 Authors ](#-authors-)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -77,6 +77,17 @@ Start your interactive ruby shell `irb`:
 - Twitter: [@twitterhandle](https://twitter.com/HenaryKhuraijam)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/henary-khuraijam-50487317a/)
 
+👤 **Lucy W. Mwangi**
+
+- GitHub: [@lucy-sees](https://github.com/lucy-sees)
+- Twitter: [@lucy_w_mwangi](https://twitter.com/lucy_w_mwangi)
+- LinkedIn: [@Lucy (Wanjiru) Mwangi](https://www.linkedin.com/in/lucy-wanjiru-mwangi)
+
+👤 **AishaAlsewi**
+
+- GitHub: [Aisha Alsewi](https://github.com/AlselwiAisha)
+- LinkedIn: [Aisha Alsewi](https://www.linkedin.com/in/aisha-alselwi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -93,7 +104,7 @@ Start your interactive ruby shell `irb`:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/HenaryKhuraijam/blog-app.git).
+Feel free to check the [issues page](../../issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,4 +131,3 @@ I would like to thank Microverse for this opportunity to learn Ruby on Rails and
 This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
