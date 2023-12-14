@@ -5,13 +5,13 @@ RSpec.describe 'Test Show user Page', type: :feature do
       @user = User.create(name: 'Ranj', photo: 'image1.png', bio: 'bio1', posts_counter: 0)
       @user.save!
       @first_post = Post.create(author: @user, title: 'first post', text: 'post1 text',
-                                comments_counter: 0, likes_counter: 0, id: 1)
+                                comments_counter: 0, likes_counter: 0, id: 1111)
       @second_post = Post.create(author: @user, title: 'second post', text: 'post2 text',
-                                 comments_counter: 0, likes_counter: 0, id: 2)
+                                 comments_counter: 0, likes_counter: 0, id: 1112)
       @third_post = Post.create(author: @user, title: 'third post', text: 'post3 text',
-                                comments_counter: 0, likes_counter: 0, id: 3)
+                                comments_counter: 0, likes_counter: 0, id: 1113)
       @fourth_post = Post.create(author: @user, title: 'last post',
-                                 text: 'last post text', comments_counter: 0, likes_counter: 0, id: 4)
+                                 text: 'last post text', comments_counter: 0, likes_counter: 0, id: 1114)
       visit(user_path(id: @user.id))
     end
     it 'shows the user username' do
