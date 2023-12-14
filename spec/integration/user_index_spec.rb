@@ -1,4 +1,5 @@
 require 'rails_helper'
+
 RSpec.describe 'Test Index Page', type: :feature do
   describe 'GET index' do
     before(:each) do
@@ -26,6 +27,11 @@ RSpec.describe 'Test Index Page', type: :feature do
       expect(page).to have_content('Number of posts: 4')
       expect(page).to have_content('Number of posts: 5')
       expect(page).to have_content('Number of posts: 2')
+    end
+    it "redirected to that user's show page after clicking on user" do
+      visit root_path
+      click_link @first_user.name
+      expect(page).to have_current_path(user_path(@first_user.id))
     end
   end
 end

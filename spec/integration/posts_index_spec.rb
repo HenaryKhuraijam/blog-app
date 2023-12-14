@@ -29,6 +29,11 @@ RSpec.describe 'posts#index', type: :feature do
       expect(page).to have_content('Ranj')
     end
 
+    it 'to show the Pagination buttons' do
+      visit(user_posts_path(@user1.id))
+      expect(page).to have_content('Pagination')
+    end
+
     it 'shows number of posts of user has written' do
       visit(user_posts_path(@user1.id))
       expect(@user1.posts_counter).to eql(3)
