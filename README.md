@@ -120,4 +120,3 @@ I would like to thank Microverse for this opportunity to learn Ruby on Rails and
 This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
