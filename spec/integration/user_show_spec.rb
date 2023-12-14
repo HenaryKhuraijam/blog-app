@@ -39,7 +39,7 @@ RSpec.describe 'Test Show user Page', type: :feature do
       click_link 'first post'
       expect(page).to have_current_path user_post_path(@first_post.author_id, @first_post)
     end
-    it "redirects the user to the post's show page after clickin on it" do
+    it "redirects the user to the post's index page after clickin on it" do
       click_link 'See all posts'
       expect(page).to have_current_path user_posts_path(@user)
     end

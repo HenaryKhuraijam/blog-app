@@ -104,7 +104,7 @@ Start your interactive ruby shell `irb`:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/HenaryKhuraijam/blog-app.git).
+Feel free to check the [issues page](../../issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
